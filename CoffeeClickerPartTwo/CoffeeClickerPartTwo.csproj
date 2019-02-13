@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9B1A1A27-39FF-4A75-A85F-032DD0FFC04E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CoffeeClickerPartTwo</RootNamespace>
+    <AssemblyName>CoffeeClickerPartTwo</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>coffeeclickericon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoBrewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoBrewer.Designer.cs">
+      <DependentUpon>AutoBrewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beans.Designer.cs">
+      <DependentUpon>Beans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeCoin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoffeeCoin.Designer.cs">
+      <DependentUpon>CoffeeCoin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoffeeMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoffeeMaker.Designer.cs">
+      <DependentUpon>CoffeeMaker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainCount.Designer.cs">
+      <DependentUpon>MainCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AutoBrewer.resx">
+      <DependentUpon>AutoBrewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Beans.resx">
+      <DependentUpon>Beans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoffeeCoin.resx">
+      <DependentUpon>CoffeeCoin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoffeeMaker.resx">
+      <DependentUpon>CoffeeMaker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainCount.resx">
+      <DependentUpon>MainCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brew.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brew1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="coffeeclickericon.ico" />
+    <Content Include="coffeeclickericon_cix_icon.ico" />
+    <None Include="Resources\coffeeclickerlogo.png" />
+    <None Include="Resources\coffie.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

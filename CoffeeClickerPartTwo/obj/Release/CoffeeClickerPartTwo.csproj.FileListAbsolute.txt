@@ -1,0 +1,15 @@
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\bin\Release\CoffeeClickerPartTwo.exe.config
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\bin\Release\CoffeeClickerPartTwo.exe
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\bin\Release\CoffeeClickerPartTwo.pdb
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.csprojAssemblyReference.cache
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.AutoBrewer.resources
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.Beans.resources
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.CoffeeMaker.resources
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.MainCount.resources
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.Menu.resources
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.Properties.Resources.resources
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.csproj.GenerateResource.cache
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.csproj.CoreCompileInputs.cache
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.exe
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.pdb
+C:\Users\jack.mcgowan.byr\source\repos\CoffeeClickerPartTwo\CoffeeClickerPartTwo\obj\Release\CoffeeClickerPartTwo.CoffeeCoin.resources
